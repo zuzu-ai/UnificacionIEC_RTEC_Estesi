@@ -123,5 +123,22 @@ namespace CapaVistaGestorInventarios
 			lblTituloProveedor.Text = "";
 			txtBusqueda.Text = "";
 		}
-	}
+
+        private void btnGeneraReporte_Click(object sender, EventArgs e)
+        {
+			if (rbnReporteMensual.Checked=true)
+            {
+				GeneradorReportes reporte = new GeneradorReportes();
+
+				reporte.Show();
+
+			}
+			if (rbnMasVendido.Checked=true)
+            {
+				GeneradorReportes reporte = new GeneradorReportes();
+
+				reporte.Show();
+			}
+        }
+    }
 }

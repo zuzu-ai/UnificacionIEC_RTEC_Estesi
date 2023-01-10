@@ -207,7 +207,7 @@ namespace CapaVistaGestorInventarios
 			// cbxCategoria1
 			// 
 			this.cbxCategoria1.FormattingEnabled = true;
-			this.cbxCategoria1.Location = new System.Drawing.Point(144, 152);
+			this.cbxCategoria1.Location = new System.Drawing.Point(508, 70);
 			this.cbxCategoria1.Name = "cbxCategoria1";
 			this.cbxCategoria1.Size = new System.Drawing.Size(214, 21);
 			this.cbxCategoria1.TabIndex = 3;

@@ -382,6 +382,13 @@ namespace SistemaIEC_RTEC
                 CapaVistaGestorInventarios.frmProducto form = new CapaVistaGestorInventarios.frmProducto();
                 form.MdiParent = this;
                 form.Show();
+                try
+                {
+                    CapaVistaGestorInventarios.frmRecordatorios frm = new CapaVistaGestorInventarios.frmRecordatorios();
+                    frm.MdiParent = this;
+                    frm.Show();
+                }
+                catch (Exception ex) { MessageBox.Show("Error: " + ex); }
             }
             catch (Exception ex) { MessageBox.Show("Error: " + ex); }
         }

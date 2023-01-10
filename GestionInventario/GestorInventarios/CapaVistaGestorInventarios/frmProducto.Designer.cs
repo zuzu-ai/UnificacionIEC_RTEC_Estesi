@@ -131,6 +131,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdInventario.TabIndex = 173;
 			this.txtIdInventario.TabStop = false;
 			this.txtIdInventario.Tag = "fkinventarioE";
+			this.txtIdInventario.Visible = false;
 			this.txtIdInventario.TextChanged += new System.EventHandler(this.txtIdInventario_TextChanged);
 			// 
 			// txtID
@@ -412,6 +413,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdMarca.TabIndex = 199;
 			this.txtIdMarca.TabStop = false;
 			this.txtIdMarca.Tag = "fkmarca";
+			this.txtIdMarca.Visible = false;
 			this.txtIdMarca.TextChanged += new System.EventHandler(this.txtIdMarca_TextChanged);
 			// 
 			// txtIdAlmacenamiento
@@ -422,6 +424,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdAlmacenamiento.TabIndex = 200;
 			this.txtIdAlmacenamiento.TabStop = false;
 			this.txtIdAlmacenamiento.Tag = "fktipoalmacen";
+			this.txtIdAlmacenamiento.Visible = false;
 			this.txtIdAlmacenamiento.TextChanged += new System.EventHandler(this.txtIdAlmacenamiento_TextChanged);
 			// 
 			// txtIdCat1
@@ -432,6 +435,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdCat1.TabIndex = 201;
 			this.txtIdCat1.TabStop = false;
 			this.txtIdCat1.Tag = "fkcategoria1";
+			this.txtIdCat1.Visible = false;
 			this.txtIdCat1.TextChanged += new System.EventHandler(this.txtIdCat1_TextChanged);
 			// 
 			// txtIdCat2
@@ -442,6 +446,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdCat2.TabIndex = 202;
 			this.txtIdCat2.TabStop = false;
 			this.txtIdCat2.Tag = "fkcategoria2";
+			this.txtIdCat2.Visible = false;
 			this.txtIdCat2.TextChanged += new System.EventHandler(this.txtIdCat2_TextChanged);
 			// 
 			// txtIdCat3
@@ -452,6 +457,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdCat3.TabIndex = 203;
 			this.txtIdCat3.TabStop = false;
 			this.txtIdCat3.Tag = "fkcategoria3";
+			this.txtIdCat3.Visible = false;
 			this.txtIdCat3.TextChanged += new System.EventHandler(this.txtIdCat3_TextChanged);
 			// 
 			// txtIdSucursal
@@ -462,6 +468,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdSucursal.TabIndex = 206;
 			this.txtIdSucursal.TabStop = false;
 			this.txtIdSucursal.Tag = "fksucursal";
+			this.txtIdSucursal.Visible = false;
 			this.txtIdSucursal.TextChanged += new System.EventHandler(this.txtIdSucursal_TextChanged);
 			// 
 			// cbxSucursal
@@ -492,6 +499,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdUbicacion.TabIndex = 209;
 			this.txtIdUbicacion.TabStop = false;
 			this.txtIdUbicacion.Tag = "fkubicacion";
+			this.txtIdUbicacion.Visible = false;
 			this.txtIdUbicacion.TextChanged += new System.EventHandler(this.txtIdUbicacion_TextChanged);
 			// 
 			// cbxUbicacion
@@ -571,6 +579,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdProveedores.TabIndex = 218;
 			this.txtIdProveedores.TabStop = false;
 			this.txtIdProveedores.Tag = "fkproveedores";
+			this.txtIdProveedores.Visible = false;
 			this.txtIdProveedores.TextChanged += new System.EventHandler(this.txtIdProveedores_TextChanged);
 			// 
 			// txtIdBodega
@@ -581,6 +590,7 @@ namespace CapaVistaGestorInventarios
 			this.txtIdBodega.TabIndex = 222;
 			this.txtIdBodega.TabStop = false;
 			this.txtIdBodega.Tag = "fksucursal";
+			this.txtIdBodega.Visible = false;
 			this.txtIdBodega.TextChanged += new System.EventHandler(this.txtIdBodega_TextChanged);
 			// 
 			// cbxBodega

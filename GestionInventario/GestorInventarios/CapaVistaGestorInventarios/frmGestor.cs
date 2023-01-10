@@ -82,7 +82,7 @@ namespace CapaVistaGestorInventarios
 
 		private void cbxInventario_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			controlador.IDCombo(txtInventario, "inventarioe", "ID_Transacciones", cbxInventario.Text);
+			controlador.IDCombo(txtInventario, "inventarioe", "ID_Encabezado", cbxInventario.Text);
 			try
 			{
 				if (txtInventario.Text != "")
@@ -120,7 +120,7 @@ namespace CapaVistaGestorInventarios
 
 		private void cbxTransaccion_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			controlador.IDCombo(txtTransaccion, "tipotransac", "ID_Transacciones", cbxTransaccion.Text);
+			controlador.IDCombo(txtTransaccion, "tipotransac", "ID_Tipo_Transaccion", cbxTransaccion.Text);
 		}
 
 		private void txtProducto_TextChanged(object sender, EventArgs e)
@@ -253,7 +253,7 @@ namespace CapaVistaGestorInventarios
 					try
 					{
 						query = "INSERT INTO transacciones VALUES( '" + txtID.Text + "', '" + txtInventario.Text + "', '" + txtProducto.Text + "', '" + txtTransaccion.Text + "', '" + txtFecha.Text + "', '" + txtCantidad.Text + "', '" + txtPrecio.Text + "', '" + txtEstado.Text + "');";
-						string acciontransac = controlador.BuscaDato("tipotransac","Accion","ID_Transacciones",txtTransaccion.Text);
+						string acciontransac = controlador.BuscaDato("tipotransac","Accion","ID_Tipo_Transaccion",txtTransaccion.Text);
 						string precio = "";
 						if (acciontransac == "1")
 						{
@@ -312,12 +312,12 @@ namespace CapaVistaGestorInventarios
 					try
 					{
 						query = "UPDATE transacciones SET Fk_Encabezado = '" + txtInventario.Text + "', Fk_Detalle ='" + txtProducto.Text + "', Fk_Tipo_Transaccion ='" + txtTransaccion.Text + "', Fecha_Transaccion ='" + txtFecha.Text + "', Cantidad ='" + txtCantidad.Text + "', Precio ='" + txtPrecio.Text + "', Estado='" + txtEstado.Text + "' WHERE ID_Transacciones = '" + txtID.Text + "';";
-						string acciontransac = controlador.BuscaDato("tipotransac", "Accion", "Fk_Tipo_Transaccion", txtTransaccion.Text);
+						string acciontransac = controlador.BuscaDato("tipotransac", "Accion", "ID_Tipo_Transaccion", txtTransaccion.Text);
 						string precio = "";
 						if (acciontransac == "1")
 						{
 							precio = controlador.BuscaDato("inventariod", "Precio_Compra", "ID_Detalle", txtProducto.Text);
-							string cantransac = controlador.BuscaDato("transacciones", "cantidad", "ID_Transaccion", txtID.Text);
+							string cantransac = controlador.BuscaDato("transacciones", "cantidad", "ID_Transacciones", txtID.Text);
 							string inicial = controlador.BuscaDato("inventariod", "cantidad", "ID_Detalle", txtProducto.Text);
 							string modificar = txtCantidad.Text;
 							string querymodifica = "";
@@ -342,7 +342,7 @@ namespace CapaVistaGestorInventarios
 						else if (acciontransac == "2")
 						{
 							precio = controlador.BuscaDato("inventariod", "Precio_Venta", "ID_Detalle", txtProducto.Text);
-							string cantransac = controlador.BuscaDato("transacciones", "cantidad", "ID_Transaccion", txtID.Text);
+							string cantransac = controlador.BuscaDato("transacciones", "cantidad", "ID_Transacciones", txtID.Text);
 							string inicial = controlador.BuscaDato("inventariod", "cantidad", "ID_Detalle", txtProducto.Text);
 							string modificar = txtCantidad.Text;
 							string querymodifica = "";

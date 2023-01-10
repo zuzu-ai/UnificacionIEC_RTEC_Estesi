@@ -195,12 +195,6 @@
     <Compile Include="frmUsuario.Designer.cs">
       <DependentUpon>frmUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="GeneradorReportes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GeneradorReportes.Designer.cs">
-      <DependentUpon>GeneradorReportes.cs</DependentUpon>
-    </Compile>
     <Compile Include="MDIRTEC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -448,9 +442,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUsuario.resx">
       <DependentUpon>frmUsuario.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GeneradorReportes.resx">
-      <DependentUpon>GeneradorReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIRTEC.resx">
       <DependentUpon>MDIRTEC.cs</DependentUpon>

@@ -22,3 +22,9 @@ C:\Users\ZUZU\Desktop\Unificado\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\Cap
 C:\Users\ZUZU\Desktop\Unificado\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.csproj.CoreCompileInputs.cache
 C:\Users\ZUZU\Desktop\Unificado\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.dll
 C:\Users\ZUZU\Desktop\Unificado\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.pdb
+C:\Users\ZUZU\Desktop\EsteSi\SistemaIEC_RTEC\CapaModeloIEC_RTEC\bin\Debug\CapaModeloIEC_RTEC.dll
+C:\Users\ZUZU\Desktop\EsteSi\SistemaIEC_RTEC\CapaModeloIEC_RTEC\bin\Debug\CapaModeloIEC_RTEC.pdb
+C:\Users\ZUZU\Desktop\EsteSi\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.csproj.AssemblyReference.cache
+C:\Users\ZUZU\Desktop\EsteSi\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.csproj.CoreCompileInputs.cache
+C:\Users\ZUZU\Desktop\EsteSi\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.dll
+C:\Users\ZUZU\Desktop\EsteSi\SistemaIEC_RTEC\CapaModeloIEC_RTEC\obj\Debug\CapaModeloIEC_RTEC.pdb

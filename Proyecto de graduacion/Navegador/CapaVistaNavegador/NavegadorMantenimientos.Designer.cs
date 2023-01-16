@@ -118,6 +118,7 @@ namespace CapaVistaNavegador
             this.btnImprimir.Size = new System.Drawing.Size(50, 50);
             this.btnImprimir.TabIndex = 0;
             this.btnImprimir.UseVisualStyleBackColor = false;
+            this.btnImprimir.Visible = false;
             // 
             // btnActualizar
             // 
@@ -214,6 +215,7 @@ namespace CapaVistaNavegador
             this.btnSalir.BackColor = System.Drawing.Color.Transparent;
             this.btnSalir.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSalir.BackgroundImage")));
             this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.Enabled = false;
             this.btnSalir.FlatAppearance.BorderSize = 0;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Location = new System.Drawing.Point(600, 0);
@@ -221,7 +223,9 @@ namespace CapaVistaNavegador
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(50, 50);
             this.btnSalir.TabIndex = 0;
+            this.btnSalir.TabStop = false;
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Visible = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnEliminar
